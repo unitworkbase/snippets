@@ -15,4 +15,8 @@ eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
 
-
+## Add key to git
+```
+clip < ~/.ssh/id_rsa.pub
+```
+then go to your own profile page...
