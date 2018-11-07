@@ -24,3 +24,9 @@ then go to your own profile page...
 * click your _profile icon |  your profile | edit profile | SSH and GPG keys | click 'new ssh key'_
 * give your key a name
 * save the key
+
+
+## Stop ssh-agent
+```
+eval $(ssh-agent -k)
+```
