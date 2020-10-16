@@ -56,4 +56,5 @@ function userSyncRule(user, context, callback) {
 ```
 
 ## Getting the Auth0 public key for Hasura
-visit: `https://<yourAuth0Domain.com>/.well-known/jwks.json`
+visit: `https://hasura.io/jwt-config/` specifically for the cert to give to hasura.
+More generally, there's also `https://<yourAuth0Domain.com>/.well-known/jwks.json` but the output from here cannot be fed directly to hasura.
