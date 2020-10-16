@@ -54,3 +54,6 @@ function userSyncRule(user, context, callback) {
   );
 }
 ```
+
+## Getting the Auth0 public key for Hasura
+visit: `https://<yourAuth0Domain.com>/.well-known/jwks.json`
